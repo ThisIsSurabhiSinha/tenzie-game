@@ -28,8 +28,12 @@ A fun and interactive **Tenzies Game** built with React.js! Roll dice, hold spec
    git clone https://github.com/ThisIsSurabhiSinha/tenzie-game.git
    cd tenzies-game
 2.Install dependencies:
+   ```bash
    npm install
-3. Start the development server:
+3.Start the development server"
+  ```bash
    npm start
-4. Open your browser and navigate to:
+4.Open your browser and navigate to:
    http://localhost:3000  
+
+Check out the deployed project here: tenzie-game-epxtva3gz-surabhhi-sinhas-projects.vercel.app
