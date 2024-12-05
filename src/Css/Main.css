@@ -1,0 +1,89 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0B2434;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#root {
+    height: 100%;
+    width: 100%;
+    max-height: 450px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #F5F5F5;
+    height: 100%;
+    border-radius: 5px;
+    min-width:500px;
+    min-height: 500px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+    gap:1.5rem;
+    
+}
+
+
+.die-container{
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px; 
+    padding:0 3rem 0 3rem;
+}
+
+#roll-btn{
+    padding:1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #5035FF;
+    border:none;
+    outline: none;
+    color:white;
+    width:auto;
+    border-radius: 5px;
+    cursor: pointer;
+    word-wrap:none;
+}
+
+#roll-btn:hover{
+    background-color: rgb(42, 18, 65)
+}
+
+@media (max-width: 600px) {
+    main {
+        min-width: 300px;
+        min-height: 300px; 
+    }
+}
+
+@media (max-width: 400px) { 
+    main {
+        min-width: 200px; 
+        min-height: 200px;
+    }
+}
+
+.roll-count{
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: auto;
+}
+
