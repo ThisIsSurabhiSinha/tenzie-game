@@ -10,6 +10,7 @@ export default function Main() {
     }
 
     const buttonRef = useRef(null);
+    
     const initialDiceValues = Array(10)
         .fill(null)
         .map(() => ({
